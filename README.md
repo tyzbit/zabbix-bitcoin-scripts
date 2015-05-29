@@ -2,9 +2,11 @@
 A collection of scripts written to plug into Zabbix to monitor a bitcoin node
 
 ## Installation:
-Copy the scripts (sans .sh if you're using the provided template) to /usr/local/bin/
-Ensure the Zabbix user can make calls to bitcoin-cli (set up bitcoin.conf for that user)
-Ensure the Zabbix user can write to the /tmp/ directory
+* Copy the scripts (sans .sh if you're using the provided template) to /usr/local/bin/
+
+* Ensure the Zabbix user can make calls to bitcoin-cli (set up bitcoin.conf for that user)
+
+* Ensure the Zabbix user can write to the /tmp/ directory
 
 #### bitcoin-blocks.sh 
 Outputs the current block height
