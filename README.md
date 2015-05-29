@@ -10,12 +10,16 @@ A collection of scripts written to plug into Zabbix to monitor a bitcoin node
 
 #### bitcoin-blocks.sh 
 Outputs the current block height
+
 #### bitcoin-blocktime.sh
 Outputs the age of the last block
+
 #### bitcoin-connections.sh
 Outputs the number of connections to the bitcoin node
+
 #### bitcoin-difficulty.sh
 Output the current difficulty
+
 #### bitcoin-hashrate.sh
 Output the estimated hashrate calculated from the difficulty
 
