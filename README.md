@@ -21,3 +21,6 @@ Output the estimated hashrate calculated from the difficulty
 
 #### zabbix_template.xml
 Example Zabbix template to get you started
+
+#### zabbix_screen.xml
+Example Zabbix screen to get you started (change the host to match your hostname)
