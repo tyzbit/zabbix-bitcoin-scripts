@@ -1,10 +1,14 @@
 # zabbix-bitcoin-scripts
 A collection of scripts written to plug into Zabbix to monitor a bitcoin node
 
+
+## Dependencies:
+*jq* - `sudo apt-get install jq`
+
 ## Installation:
 * Copy the scripts (sans .sh if you're using the provided template) to /usr/local/bin/
 
-* Ensure the Zabbix user can make calls to bitcoin-cli (set up bitcoin.conf for that user)
+* Ensure the Zabbix user can make calls to bitcoin-cli (set up bitcoin.conf for that user, might have to adjust scripts to match the zabbix user's home directory)
 
 * Ensure the Zabbix user can write to the /tmp/ directory
 
