@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-05-29T19:56:17Z</date>
+    <date>2015-10-12T04:07:47Z</date>
     <screens>
         <screen>
             <name>Bitcoin Stats</name>
-            <hsize>2</hsize>
+            <hsize>3</hsize>
             <vsize>2</vsize>
             <screen_items>
                 <screen_item>
                     <resourcetype>1</resourcetype>
-                    <width>800</width>
-                    <height>300</height>
+                    <width>600</width>
+                    <height>200</height>
                     <x>0</x>
                     <y>0</y>
                     <colspan>1</colspan>
@@ -52,7 +52,7 @@
                 </screen_item>
                 <screen_item>
                     <resourcetype>1</resourcetype>
-                    <width>800</width>
+                    <width>600</width>
                     <height>200</height>
                     <x>0</x>
                     <y>1</y>
@@ -73,7 +73,7 @@
                 </screen_item>
                 <screen_item>
                     <resourcetype>1</resourcetype>
-                    <width>800</width>
+                    <width>600</width>
                     <height>200</height>
                     <x>1</x>
                     <y>1</y>
@@ -87,7 +87,49 @@
                     <dynamic>0</dynamic>
                     <sort_triggers>0</sort_triggers>
                     <resource>
+                        <key>bitcoin.blockavg</key>
+                        <host>srever</host>
+                    </resource>
+                    <application/>
+                </screen_item>
+                <screen_item>
+                    <resourcetype>1</resourcetype>
+                    <width>200</width>
+                    <height>100</height>
+                    <x>2</x>
+                    <y>0</y>
+                    <colspan>1</colspan>
+                    <rowspan>1</rowspan>
+                    <elements>0</elements>
+                    <valign>0</valign>
+                    <halign>0</halign>
+                    <style>0</style>
+                    <url/>
+                    <dynamic>0</dynamic>
+                    <sort_triggers>0</sort_triggers>
+                    <resource>
                         <key>system.run[/usr/local/bin/bitcoin-difficulty]</key>
+                        <host>srever</host>
+                    </resource>
+                    <application/>
+                </screen_item>
+                <screen_item>
+                    <resourcetype>1</resourcetype>
+                    <width>600</width>
+                    <height>200</height>
+                    <x>2</x>
+                    <y>1</y>
+                    <colspan>1</colspan>
+                    <rowspan>1</rowspan>
+                    <elements>0</elements>
+                    <valign>0</valign>
+                    <halign>0</halign>
+                    <style>0</style>
+                    <url/>
+                    <dynamic>0</dynamic>
+                    <sort_triggers>0</sort_triggers>
+                    <resource>
+                        <key>system.run[/usr/local/bin/bitcoin-mempool]</key>
                         <host>srever</host>
                     </resource>
                     <application/>
