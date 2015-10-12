@@ -27,6 +27,9 @@ Output the current difficulty
 #### bitcoin-hashrate.sh
 Output the estimated hashrate calculated from the difficulty
 
+#### bitcoin-mempool.sh
+Output the size of the mempool
+
 #### zabbix_template.xml
 Example Zabbix template to get you started
 
