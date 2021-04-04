@@ -1,6 +1,7 @@
 # zabbix-bitcoin-scripts
 A collection of scripts written to plug into Zabbix to monitor a bitcoin node
 
+## This repository is archived and unsupported.  Code here is for historical and learning purposes.
 
 ## Dependencies:
 *jq* - `sudo apt-get install jq`
